@@ -4,7 +4,6 @@ import com.rtecnico.afiliaciones.dto.request.LoginDTO;
 import com.rtecnico.afiliaciones.dto.request.TokenRequest;
 import com.rtecnico.afiliaciones.dto.response.AuthResponseDTO;
 import com.rtecnico.afiliaciones.dto.response.ResponseDTO;
-import com.rtecnico.afiliaciones.model.Agent;
 import com.rtecnico.afiliaciones.service.AuthService;
 import com.rtecnico.afiliaciones.service.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;

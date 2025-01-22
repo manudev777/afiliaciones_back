@@ -32,7 +32,6 @@ public class AuthService {
                     .token(token)
                     .build());
         } else {
-            // Devolver respuesta de error en caso de credenciales inválidas
             return new ResponseDTO<>("Invalid username or password", 401, null);
         }
     }
